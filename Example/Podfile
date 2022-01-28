@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ROSPackage_Example' do
+  pod 'ROSPackage', :path => '../'
+
+  target 'ROSPackage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
