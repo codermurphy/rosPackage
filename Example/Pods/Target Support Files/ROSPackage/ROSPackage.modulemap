@@ -1,0 +1,6 @@
+framework module ROSPackage {
+  umbrella header "ROSPackage-umbrella.h"
+
+  export *
+  module * { export * }
+}

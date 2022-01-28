@@ -1,0 +1,6 @@
+framework module Pods_ROSPackage_Example {
+  umbrella header "Pods-ROSPackage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

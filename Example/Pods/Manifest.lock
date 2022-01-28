@@ -1,0 +1,16 @@
+PODS:
+  - ROSPackage (0.1.0)
+
+DEPENDENCIES:
+  - ROSPackage (from `../`)
+
+EXTERNAL SOURCES:
+  ROSPackage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ROSPackage: e4915ee543a7832e3cfba651a9a7a0a42058d290
+
+PODFILE CHECKSUM: 41004a79a296f14612ff3b37cbe6975539bb7f6a
+
+COCOAPODS: 1.11.2

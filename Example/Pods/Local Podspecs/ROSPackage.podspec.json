@@ -1,0 +1,24 @@
+{
+  "name": "ROSPackage",
+  "version": "0.1.0",
+  "summary": "ros common package.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/codermurphy/rosPackage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "murphy": "lj472840101@163.com"
+  },
+  "source": {
+    "git": "https://github.com/codermurphy/rosPackage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.5",
+  "source_files": "ROSPackage/Classes/**/*.{h,mm,m,swift}",
+  "swift_version": "5.5"
+}
