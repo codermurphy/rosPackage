@@ -11,6 +11,7 @@
 #endif
 
 #import "ROSImageProccessing.h"
+#import "SwiftOpencvHeader.h"
 
 FOUNDATION_EXPORT double ROSPackageVersionNumber;
 FOUNDATION_EXPORT const unsigned char ROSPackageVersionString[];

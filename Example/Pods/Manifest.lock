@@ -1,15 +1,22 @@
 PODS:
-  - ROSPackage (0.1.0)
+  - Opencv2-ios-framework (4.5.5)
+  - ROSPackage (0.1.0):
+    - Opencv2-ios-framework
 
 DEPENDENCIES:
   - ROSPackage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Opencv2-ios-framework
 
 EXTERNAL SOURCES:
   ROSPackage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ROSPackage: e4915ee543a7832e3cfba651a9a7a0a42058d290
+  Opencv2-ios-framework: 340adb70c1e11b289a2da293e590f2ce07dc6a03
+  ROSPackage: 3dc0aae6b45381114bc06efb73534c8d269c752f
 
 PODFILE CHECKSUM: 41004a79a296f14612ff3b37cbe6975539bb7f6a
 

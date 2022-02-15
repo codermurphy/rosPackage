@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## Opencv2-ios-framework
+
+By downloading, copying, installing or using the software you agree to this license.If you do not agree to this license, do not download, install copy or use the software
+
 ## ROSPackage
 
 Copyright (c) 2022 murphy <lj472840101@163.com>

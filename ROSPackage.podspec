@@ -28,11 +28,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ROSPackage/Classes/**/*.{h,mm,m,swift}'
   
+  s.static_framework = true
+  
+#  s.libraries = "stdc++"
+#  s.ios.vendored_frameworks = 'OpenCV/opencv2.framework'
+  
   # s.resource_bundles = {
   #   'ROSPackage' => ['ROSPackage/Assets/*.png']
   # }
-
-#   s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.prefix_header_contents = '#import <opencv2/opencv2-Swift.h>,#import <opencv2/opencv2.h>'
+  s.prefix_header_file = false
+  
+#  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.dependency 'Opencv2-ios-framework'
 end

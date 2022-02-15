@@ -11,8 +11,13 @@
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		AD2F3367BF9C33A8E960D139 /* Pods_ROSPackage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79F352E6B152457F8746E48 /* Pods_ROSPackage_Example.framework */; };
+		C525D2BD27B9E747000E2078 /* RobotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525D2BC27B9E747000E2078 /* RobotView.swift */; };
+		C525D2BF27B9EFB1000E2078 /* RobotChargingpileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525D2BE27B9EFB1000E2078 /* RobotChargingpileView.swift */; };
 		C52BF73927A3774300BF8D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52BF73827A3774300BF8D8B /* Main.storyboard */; };
 		C52BF73B27A3776900BF8D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52BF73A27A3776900BF8D8B /* LaunchScreen.storyboard */; };
+		C5C1206327B34F3000093BAF /* map1.pgm in Resources */ = {isa = PBXBuildFile; fileRef = C5C1206227B34F3000093BAF /* map1.pgm */; };
+		C5E8116527B65A9A0076C326 /* map3.pgm in Resources */ = {isa = PBXBuildFile; fileRef = C5E8116427B65A9A0076C326 /* map3.pgm */; };
+		C5FEA20127B0AF2C00EA6BB4 /* Opencv2-ios-framework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C5FEA20027B0AF2C00EA6BB4 /* Opencv2-ios-framework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +33,13 @@
 		8A5BE2DE16E660DABA758E0E /* Pods_ROSPackage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROSPackage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF84CBE035E7938245734ED /* Pods-ROSPackage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSPackage_Example.debug.xcconfig"; path = "Target Support Files/Pods-ROSPackage_Example/Pods-ROSPackage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C522344820B171B0F0583CF7 /* Pods-ROSPackage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSPackage_Tests.release.xcconfig"; path = "Target Support Files/Pods-ROSPackage_Tests/Pods-ROSPackage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C525D2BC27B9E747000E2078 /* RobotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotView.swift; sourceTree = "<group>"; };
+		C525D2BE27B9EFB1000E2078 /* RobotChargingpileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotChargingpileView.swift; sourceTree = "<group>"; };
 		C52BF73827A3774300BF8D8B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C52BF73A27A3776900BF8D8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5C1206227B34F3000093BAF /* map1.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map1.pgm; sourceTree = "<group>"; };
+		C5E8116427B65A9A0076C326 /* map3.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map3.pgm; sourceTree = "<group>"; };
+		C5FEA20027B0AF2C00EA6BB4 /* Opencv2-ios-framework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opencv2-ios-framework.podspec"; sourceTree = "<group>"; };
 		D79F352E6B152457F8746E48 /* Pods_ROSPackage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROSPackage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F128870E45B6906DDA391FE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +68,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				C5FEA1FE27B0AEFB00EA6BB4 /* Opencv */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ROSPackage */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -79,6 +90,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C525D2BC27B9E747000E2078 /* RobotView.swift */,
+				C525D2BE27B9EFB1000E2078 /* RobotChargingpileView.swift */,
+				C5E8116427B65A9A0076C326 /* map3.pgm */,
+				C5C1206227B34F3000093BAF /* map1.pgm */,
 				C52BF73827A3774300BF8D8B /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				C52BF73A27A3776900BF8D8B /* LaunchScreen.storyboard */,
@@ -117,6 +132,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C5FEA1FE27B0AEFB00EA6BB4 /* Opencv */ = {
+			isa = PBXGroup;
+			children = (
+				C5FEA1FF27B0AEFB00EA6BB4 /* 4.5.5 */,
+			);
+			name = Opencv;
+			path = ../Opencv;
+			sourceTree = "<group>";
+		};
+		C5FEA1FF27B0AEFB00EA6BB4 /* 4.5.5 */ = {
+			isa = PBXGroup;
+			children = (
+				C5FEA20027B0AF2C00EA6BB4 /* Opencv2-ios-framework.podspec */,
+			);
+			path = 4.5.5;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,7 +160,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4F9DECC1D5A938EDECD0B5BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,7 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C1206327B34F3000093BAF /* map1.pgm in Resources */,
+				C5E8116527B65A9A0076C326 /* map3.pgm in Resources */,
 				C52BF73B27A3776900BF8D8B /* LaunchScreen.storyboard in Resources */,
+				C5FEA20127B0AF2C00EA6BB4 /* Opencv2-ios-framework.podspec in Resources */,
 				C52BF73927A3774300BF8D8B /* Main.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -189,24 +223,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F9DECC1D5A938EDECD0B5BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ROSPackage_Example/Pods-ROSPackage_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ROSPackage/ROSPackage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ROSPackage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROSPackage_Example/Pods-ROSPackage_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BE50BCBFEBB118D606F5DC21 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,8 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C525D2BF27B9EFB1000E2078 /* RobotChargingpileView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C525D2BD27B9E747000E2078 /* RobotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

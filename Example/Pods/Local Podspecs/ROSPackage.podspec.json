@@ -20,5 +20,12 @@
   },
   "swift_versions": "5.5",
   "source_files": "ROSPackage/Classes/**/*.{h,mm,m,swift}",
+  "static_framework": true,
+  "prefix_header_file": false,
+  "dependencies": {
+    "Opencv2-ios-framework": [
+
+    ]
+  },
   "swift_version": "5.5"
 }
